@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  width: 60vw;
+  border: 5px solid black;
+  background: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px 5px white inset;
+}
+h1 {
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-family: "Handjet", cursive;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: darkred;
+  letter-spacing: 2px;
+}
+#content {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+.block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#author {
+  align-self: flex-end;
+  padding: 20px;
+  font-weight: 300;
+  color: white;
+  font-style: italic;
+}
+#new-quote {
+  padding: 10px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 18px;
+}
+#new-quote:hover {
+  background-color: black;
+  color: hotpink;
+}
